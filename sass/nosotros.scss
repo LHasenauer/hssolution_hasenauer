@@ -1,0 +1,26 @@
+.nosotros{
+    text-align: center;
+    padding-top: 8rem;
+    animation-duration: 5s;
+        animation-name: aparecer;
+        animation-direction: alternate;
+
+        @keyframes aparecer{
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 2;
+            }
+        }
+}
+h2{
+    font-size: 5em;
+    color: black;
+}
+p{
+    font-size: 3em;
+}

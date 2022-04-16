@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=servicios.css.map */
+.titulo {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.servicios {
+  text-align: center;
+  padding: 5rem;
+}
+/*# sourceMappingURL=servicios.css.map */

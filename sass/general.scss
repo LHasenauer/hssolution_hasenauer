@@ -1,5 +1,35 @@
 // general
+body{
+    background-color: white;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    font-family: var(--font-primary);
+    color: var(--secondary);
 
+}
+.flex-row{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
 // header
 header{
     grid-area: header;
@@ -35,6 +65,7 @@ header{
             .submenu{
                 display: none;
                 position: absolute;
+                font-size: var(--text-md);
                 .submenu__link{
                     &:hover{
                         background-color: var(--secondary);
@@ -47,10 +78,7 @@ header{
         }
     }
 }
-
-
 // footer
-
 footer{
     grid-area: footer;
     background-color: white;
