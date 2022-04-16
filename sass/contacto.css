@@ -1,0 +1,20 @@
+main .contacto {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 2rem;
+}
+
+main .contacto .mapa {
+  padding: 2rem;
+}
+
+main .formulario {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 2rem;
+}
+/*# sourceMappingURL=contacto.css.map */

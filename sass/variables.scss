@@ -1,0 +1,11 @@
+:root{
+    --principal: white; 
+    --secondary: rgba(0, 0, 0, 0.521);
+    --third: black;
+    --font-primary: 'Anton', sans-serif;
+    --font-secondary: 'Rubik', sans-serif;
+    --text-lg: 2em;
+    --text-md: 1.8em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:ital,wght@0,600;1,300;1,400&display=swap');
